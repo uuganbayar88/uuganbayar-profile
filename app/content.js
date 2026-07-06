@@ -53,7 +53,7 @@ export const content = {
       eyebrow: "Гол амжилтууд",
       h2: "Юу бүтээж, юу удирдсан бэ",
       items: [
-        ["Платформ бүтээсэн", "Amadeus GDS болон Hahn Air interline интеграц бүхий онлайн аялалын платформыг (OTA) архитектураас нь эхлэн бүтээж, зах зээлд нэвтрүүлсэн — Монголд цөөхөн хэрэгжсэн түвшний систем."],
+        ["Платформ бүтээсэн", "Amadeus GDS болон Trip.com интеграц бүхий онлайн аялалын платформыг (OTA) архитектураас нь эхлэн бүтээж, зах зээлд нэвтрүүлсэн — Монголд цөөхөн хэрэгжсэн түвшний систем."],
         ["Байгууллага удирдсан", "25 хүнтэй байгууллагын бүтэц, карьер ладдер, тэтгэвэр-хуримтлалын хөтөлбөр, гүйцэтгэлийн үнэлгээний тогтолцоог шинээр байгуулж, инженерийн багийн тогтвортой байдлыг хангасан."],
         ["Гэрээ хэлцэл", "B2B түвшний 200 сая – 1 тэрбум ₮-ийн хэмжээтэй технологийн гэрээ хэлцлүүдийг санаачлан удирдаж, үнийн бодлого, эрх зүйн нөхцөлийг бүрэн хариуцсан."],
         ["Кибер аюулгүй байдал", "5 физик байршил дээр аюулгүй байдлын шийдлийг нэвтрүүлж удирдан ажилладаг. AWS үүлэн дэд бүтцийн ноцтой инцидентийг удирдан шийдвэрлэж, санхүүгийн хохирлыг 100% нөхөн төлүүлж, blameless post-mortem соёл, OIDC federation архитектурыг нэвтрүүлсэн."],
@@ -129,7 +129,7 @@ export const content = {
       description:
         "Technology executive with 15+ years — from engineer to executive leadership. OTA platforms, healthcare IT, AI, and cybersecurity.",
     },
-    brand: ["U.", "CHULUUNBAATAR"],
+    brand: ["CH.", "UUGANBAYAR"],
     nav: [
       ["#summary", "Summary"],
       ["#achievements", "Achievements"],
@@ -225,7 +225,7 @@ export const content = {
       eyebrow: "Contact",
       h2: "Let's talk",
       location: "Ulaanbaatar, Mongolia",
-      fine: "U. CHULUUNBAATAR · CHIEF EXECUTIVE OFFICER · TECHNOLOGY EXECUTIVE",
+      fine: "CH. UUGANBAYAR · CHIEF EXECUTIVE OFFICER · TECHNOLOGY EXECUTIVE",
     },
   },
 };
