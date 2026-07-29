@@ -23,9 +23,16 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://uuganbayar-profile.vercel.app"),
   title: "Чулуунбаатар Ууганбаяр — Гүйцэтгэх захирал · Технологийн удирдагч",
   description:
     "Технологийн салбарт 15+ жил — инженерээс гүйцэтгэх удирдлага хүртэл. OTA платформ, эрүүл мэндийн IT, AI, кибер аюулгүй байдал.",
+  authors: [{ name: "Uuganbayar Chuluunbaatar" }],
+  creator: "Uuganbayar Chuluunbaatar",
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {
