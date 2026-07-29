@@ -1,5 +1,6 @@
 import Profile from "@/components/Profile";
 import { content } from "@/app/content";
+import { getManagedProfile } from "@/lib/profile-studio";
 
 export const metadata = {
   title: content.en.meta.title,
@@ -28,6 +29,7 @@ export const metadata = {
   },
 };
 
-export default function Page() {
-  return <Profile lang="en" />;
+export default async function Page() {
+  const managedProfile = await getManagedProfile();
+  return <Profile lang="en" managedProfile={managedProfile} />;
 }

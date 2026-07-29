@@ -2,8 +2,38 @@ import ScrollReveal from "@/components/ScrollReveal";
 import SetLang from "@/components/SetLang";
 import { content, EMAIL, EMAIL_HREF, PHONE_DISPLAY, PHONE_HREF } from "@/app/content";
 
-export default function Profile({ lang }) {
-  const c = content[lang];
+function mergeManagedContent(base, managedProfile, lang) {
+  const locale = managedProfile?.locales?.[lang];
+  if (!locale) {
+    return base;
+  }
+
+  const managedStats = managedProfile.stats ?? [];
+
+  return {
+    ...base,
+    hero: {
+      ...base.hero,
+      role: locale.role || base.hero.role,
+      tag: locale.tagline || base.hero.tag,
+    },
+    stats: base.stats.map(([value, label], index) => [
+      managedStats[index]?.value || value,
+      label,
+    ]),
+    summary: {
+      ...base.summary,
+      body: locale.summary || base.summary.body,
+    },
+    contact: {
+      ...base.contact,
+      location: locale.location || base.contact.location,
+    },
+  };
+}
+
+export default function Profile({ lang, managedProfile }) {
+  const c = mergeManagedContent(content[lang], managedProfile, lang);
 
   return (
     <>
