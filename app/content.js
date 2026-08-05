@@ -33,8 +33,8 @@ export const content = {
       briefLabel: "Удирдлагын чиглэл",
       briefTitle: "Систем бүтээнэ. Баг өсгөнө. Бизнесийн үр дүн гаргана.",
       briefItems: [
-        ["Одоогийн үүрэг", "CEO · SteppeLink"],
-        ["Гол салбар", "AI · EdTech · OTA"],
+        ["Өмнөх үүрэг", "CEO · SteppeLink"],
+        ["Гол салбар", "Management AI · EdTech · OTA"],
         ["Үндсэн чиглэл", "Strategy · Product · Technology"],
       ],
       availability: "Улаанбаатар · B2B хамтын ажиллагаанд нээлттэй",
@@ -43,10 +43,10 @@ export const content = {
       ctaCv: "CV татах",
     },
     stats: [
-      ["15+", "жил технологид"],
-      ["2", "OTA платформ"],
-      ["3", "жил эрүүл мэндийн IT"],
-      ["≤1.5", "жилд ROI нөхөгдөнө"],
+      ["15+", "жилийн технологийн салбарын туршлага"],
+      ["2", "OTA платформ бүтээсэн"],
+      ["6+", "Удирдах албан тушаалд"],
+      ["1M", "хэрэглэгчитэй 3-н платформ бүтээлцэсэн"],
     ],
     summary: {
       eyebrow: "Товч танилцуулга",
@@ -204,8 +204,8 @@ export const content = {
       briefLabel: "Leadership focus",
       briefTitle: "Build systems. Grow teams. Deliver business outcomes.",
       briefItems: [
-        ["Current role", "CEO · SteppeLink"],
-        ["Core sectors", "AI · EdTech · OTA"],
+        ["Previous role", "CEO · SteppeLink"],
+        ["Core sectors", "Management AI · EdTech · OTA"],
         ["Primary focus", "Strategy · Product · Technology"],
       ],
       availability: "Ulaanbaatar · Open to B2B partnerships",
@@ -216,8 +216,8 @@ export const content = {
     stats: [
       ["15+", "years in tech"],
       ["2", "OTA platforms"],
-      ["3", "yrs healthcare IT"],
-      ["≤1.5", "year ROI payback"],
+      ["6+", "years in leadership"],
+      ["1M", "users across 3 platforms"],
     ],
     summary: {
       eyebrow: "Executive summary",
@@ -291,7 +291,7 @@ export const content = {
       eyebrow: "Professional experience",
       h2: "Career route",
       stops: [
-        { now: true, when: "May 2024 — Present", title: "Chief Executive Officer", org: "SteppeLink — Technology & EdTech", points: [
+        { now: true, when: "May 2024 — Jul 2026", title: "Chief Executive Officer", org: "SteppeLink — Technology & EdTech", points: [
           "Full ownership of strategy, finance, and operations for a 30-person organization; manage annual budget and technology investment ROI;",
           "Lead the ESAN product ecosystem: K-12 educational tablet, Mongolian-script OCR/AI, plagiarism detection platform;",
           "Established comprehensive people-development systems: career ladders, pension/savings program, capability programs;",
