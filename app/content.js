@@ -13,9 +13,9 @@ export const content = {
     cv: "/CV_Uuganbayar_Executive_MN.pdf",
     toggle: { href: "/en", label: "EN" },
     meta: {
-      title: "Чулуунбаатар Ууганбаяр — Гүйцэтгэх захирал · Технологийн удирдагч",
+      title: "Чулуунбаатар Ууганбаяр — Технологийн удирдагч · SteppeLink-ийн өмнөх CEO",
       description:
-        "Технологийн салбарт 15+ жил — инженерээс гүйцэтгэх удирдлага хүртэл. OTA платформ, эрүүл мэндийн IT, AI, кибер аюулгүй байдал.",
+        "Технологийн салбарт 12+ жил — инженерээс гүйцэтгэх удирдлага хүртэл. OTA платформ, эрүүл мэндийн IT, AI, кибер аюулгүй байдал.",
     },
     brand: ["Ч.", "УУГАНБАЯР"],
     nav: [
@@ -28,22 +28,22 @@ export const content = {
     hero: {
       eyebrow: "Улаанбаатар · Технологи · Удирдлага",
       name: ["Чулуунбаатар", "Ууганбаяр"],
-      role: "Гүйцэтгэх захирал · Технологийн удирдагч",
-      tag: "Технологи + Бизнес: инженерээс гүйцэтгэх удирдлага хүртэл 15+ жил",
+      role: "Технологийн удирдагч · SteppeLink-ийн өмнөх CEO",
+      tag: "Технологи + Бизнес: инженерээс гүйцэтгэх удирдлага хүртэл 12+ жил",
       briefLabel: "Удирдлагын чиглэл",
       briefTitle: "Систем бүтээнэ. Баг өсгөнө. Бизнесийн үр дүн гаргана.",
       briefItems: [
         ["Өмнөх үүрэг", "CEO · SteppeLink"],
-        ["Гол салбар", "Management AI · EdTech · OTA"],
+        ["Гол салбар", "Технологийн удирдлага · AI · EdTech · OTA"],
         ["Үндсэн чиглэл", "Strategy · Product · Technology"],
       ],
-      availability: "Улаанбаатар · B2B хамтын ажиллагаанд нээлттэй",
+      availability: "Улаанбаатар · Бүтэн цагийн удирдах үүрэгт ажиллахад бэлэн",
       ctaEmail: "Имэйл илгээх",
       ctaExp: "Туршлагатай танилцах",
       ctaCv: "CV татах",
     },
     stats: [
-      ["15+", "жилийн технологийн салбарын туршлага"],
+      ["12+", "жилийн технологийн салбарын туршлага"],
       ["2", "OTA платформ бүтээсэн"],
       ["6+", "Удирдах албан тушаалд"],
       ["1M", "хэрэглэгчитэй 3-н платформ бүтээлцэсэн"],
@@ -52,7 +52,7 @@ export const content = {
       eyebrow: "Товч танилцуулга",
       h2: "Инженерээс гүйцэтгэх удирдлага хүртэл",
       body:
-        "Технологийн салбарт 15+ жил ажилласан, инженерээс гүйцэтгэх удирдлагын түвшинд хүрч ажилласан. Сүүлийн 2 жил 30 хүнтэй технологийн байгууллагыг Гүйцэтгэх захирлаар удирдаж, бүтээгдэхүүний стратеги, технологийн стратеги, санхүү, хууль эрх зүй, хүний нөөцийн тогтолцоог бүрэн хариуцаж байна. Аялал жуулчлалын онлайн платформ (OTA) болон эрүүл мэндийн салбарын мэдээллийн технологид гүнзгий туршлагатай: эмнэлгийн мэдээллийн систем, цахим эрүүл мэнд төслүүд дээр ажилласан. AI, Cloud (AWS), кибер аюулгүй байдлын чиглэлээр байгууллагын түвшний шийдэл хэрэгжүүлсэн. Бизнесийн удирдлагын магистрт (MBA) суралцаж байгаа.",
+        "Технологийн салбарт 12+ жил ажилласан, инженерээс гүйцэтгэх удирдлагын түвшинд хүрч ажилласан. 2 жилийн турш 30 хүнтэй технологийн байгууллагыг Гүйцэтгэх захирлаар удирдаж, бүтээгдэхүүний стратеги, технологийн стратеги, санхүү, хууль эрх зүй, хүний нөөцийн тогтолцоог бүрэн хариуцсан. Аялал жуулчлалын онлайн платформ (OTA) болон эрүүл мэндийн салбарын мэдээллийн технологид гүнзгий туршлагатай: эмнэлгийн мэдээллийн систем, цахим эрүүл мэнд төслүүд дээр ажилласан. AI, Cloud (AWS), кибер аюулгүй байдлын чиглэлээр байгууллагын түвшний шийдэл хэрэгжүүлсэн. Бизнесийн удирдлагын магистрт (MBA) суралцаж байгаа бөгөөд одоо шинэ удирдах үүрэгт ажиллах боломжтой.",
       signals: ["Бүтээгдэхүүний стратеги", "P&L ба ROI", "Байгууллагын дизайн", "AI · Cloud · Cybersecurity"],
       langs: "ХЭЛ: МОНГОЛ (ЭХ ХЭЛ) · АНГЛИ (АХИСАН ТҮВШИН, БИЗНЕСИЙН ОРЧИНД)",
     },
@@ -62,7 +62,7 @@ export const content = {
       items: [
         ["Платформ бүтээсэн", "Amadeus GDS болон Trip.com интеграц бүхий онлайн аялалын платформыг (OTA) архитектураас нь эхлэн бүтээж, зах зээлд нэвтрүүлсэн — Монголд цөөхөн хэрэгжсэн түвшний систем."],
         ["Байгууллага удирдсан", "30 хүнтэй байгууллагын бүтэц, карьер ладдер, тэтгэвэр-хуримтлалын хөтөлбөр, гүйцэтгэлийн үнэлгээний тогтолцоог шинээр байгуулж, инженерийн багийн тогтвортой байдлыг хангасан."],
-        ["Гэрээ хэлцэл", "B2B түвшний 200 сая – 1 тэрбум ₮-ийн хэмжээтэй технологийн гэрээ хэлцлүүдийг санаачлан удирдаж, үнийн бодлого, эрх зүйн нөхцөлийг бүрэн хариуцсан."],
+        ["Гэрээ хэлцэл", "Өндөр дүнтэй B2B технологийн гэрээ хэлцлүүдийг санаачлан удирдаж, үнийн бодлого, эрх зүйн нөхцөл, эрсдэлийн үнэлгээг бүрэн хариуцсан."],
         ["Кибер аюулгүй байдал", "5 физик байршил дээр аюулгүй байдлын шийдлийг нэвтрүүлж удирдан ажилладаг. AWS үүлэн дэд бүтцийн ноцтой инцидентийг удирдан шийдвэрлэж, санхүүгийн хохирлыг 100% нөхөн төлүүлж, blameless post-mortem соёл, OIDC federation архитектурыг нэвтрүүлсэн."],
         ["AI ба дижитал бүтээгдэхүүн", "Монгол бичгийн OCR болон хөрвүүлэгч, AI хуулбар шалгуурын систем, 1–12-р ангийн сурагчдад зориулсан боловсролын таблет зэрэг дижитал бүтээгдэхүүнүүдийн хөгжүүлэлтийг стратегийн түвшинд удирдсан. Бүтээгдэхүүн үйлчилгээнд тусгайлан зориулагдсан AI туслах."],
       ],
@@ -120,15 +120,15 @@ export const content = {
       eyebrow: "Ажлын туршлага",
       h2: "Карьерын замнал",
       stops: [
-        { now: true, when: "2024.05 — 2026.07", title: "Гүйцэтгэх захирал", org: "СтеппеЛинк — Технологи, EdTech, System development, IT service", points: [
-          "30 хүнтэй байгууллагын стратеги, санхүү, үйл ажиллагааг бүрэн хариуцаж, жилийн төсөв, хөрөнгө оруулалтын ROI-г удирдаж байна;",
+        { now: false, when: "2024.05 — 2026.07", title: "Гүйцэтгэх захирал", org: "СтеппеЛинк — Технологи, EdTech, System development, IT service", points: [
+          "30 хүнтэй байгууллагын стратеги, санхүү, үйл ажиллагааг бүрэн хариуцаж, жилийн төсөв, хөрөнгө оруулалтын ROI-г удирдсан;",
           "ESAN экосистем: 1–12-р ангийн сурагчдад зориулсан боловсролын таблет, монгол бичгийн OCR/AI, хуулбар илрүүлэх систем зэрэг бүтээгдэхүүний портфелийг удирдсан;",
           "Хүний нөөцийн хөгжлийн иж бүрэн тогтолцоо (карьер ладдер, тэтгэвэр-хуримтлал, чадавхи хөгжүүлэх хөтөлбөр) байгуулсан;",
           "AWS үүлэн дэд бүтэц, кибер аюулгүй байдлын бодлогыг олон улсын стандартад нийцүүлэн сайжруулсан.",
         ] },
-        { now: true, when: "[2025] — ОДОО", title: "Үүсгэн байгуулагч, Гүйцэтгэх захирал", org: "Flynk Tech — Skytrip аялалын платформ", points: [
+        { now: true, when: "2025 — ОДОО", title: "Үүсгэн байгуулагч, Гүйцэтгэх захирал (хагас цагийн)", org: "Flynk Tech — Skytrip аялалын платформ", points: [
           "Amadeus GDS, Trip.com интеграц бүхий OTA платформыг бүтээж, white-label B2B загвараар Монголын аялалын агентлагуудад санал болгож байна;",
-          "Бүтээгдэхүүний үнийн стратеги (markup/service fee загвар), борлуулалтын процессыг бүрэн хариуцдаг.",
+          "Бүтээгдэхүүний үнийн стратеги (markup/service fee загвар), борлуулалтын процессыг хариуцдаг; энэ үүргийн зэрэгцээ бүтэн цагийн удирдах албан тушаалд идэвхтэй хайлт хийж байна.",
         ] },
         { now: false, when: "2024.04 — 2025.01", title: "Технологи хариуцсан захирал / Зөвлөх", org: "СтеппеЛинк", points: [
           "Технологийн стратеги, архитектурын шийдвэр, инженерийн багийн удирдлагыг хариуцаж, Гүйцэтгэх захирлын үүрэгт шилжсэн / давхар хариуцсан.",
@@ -175,7 +175,7 @@ export const content = {
       ctaEmail: "Имэйл илгээх",
       ctaCv: "CV татах",
       location: "Улаанбаатар хот, Монгол",
-      fine: "Ч. УУГАНБАЯР · ГҮЙЦЭТГЭХ ЗАХИРАЛ · ТЕХНОЛОГИЙН УДИРДАГЧ",
+      fine: "Ч. УУГАНБАЯР · ТЕХНОЛОГИЙН УДИРДАГЧ · STEPPELINK-ИЙН ӨМНӨХ CEO",
     },
   },
 
@@ -184,9 +184,9 @@ export const content = {
     cv: "/CV_Uuganbayar_Executive_EN.pdf",
     toggle: { href: "/", label: "МН" },
     meta: {
-      title: "Uuganbayar Chuluunbaatar — Chief Executive Officer · Technology Executive",
+      title: "Uuganbayar Chuluunbaatar — Technology Executive · Former SteppeLink CEO",
       description:
-        "Technology executive with 15+ years — from engineer to executive leadership. OTA platforms, healthcare IT, AI, and cybersecurity.",
+        "Technology executive with 12+ years — from engineer to executive leadership. OTA platforms, healthcare IT, AI, and cybersecurity.",
     },
     brand: ["CH.", "UUGANBAYAR"],
     nav: [
@@ -199,22 +199,22 @@ export const content = {
     hero: {
       eyebrow: "Ulaanbaatar · Technology · Leadership",
       name: ["Uuganbayar", "Chuluunbaatar"],
-      role: "Chief Executive Officer · Technology Executive",
-      tag: "Technology + Business: 15+ years from engineer to executive leadership",
+      role: "Technology Executive · Former SteppeLink CEO",
+      tag: "Technology + Business: 12+ years from engineer to executive leadership",
       briefLabel: "Leadership focus",
       briefTitle: "Build systems. Grow teams. Deliver business outcomes.",
       briefItems: [
         ["Previous role", "CEO · SteppeLink"],
-        ["Core sectors", "Management AI · EdTech · OTA"],
+        ["Core sectors", "Technology leadership · AI · EdTech · OTA"],
         ["Primary focus", "Strategy · Product · Technology"],
       ],
-      availability: "Ulaanbaatar · Open to B2B partnerships",
+      availability: "Ulaanbaatar · Available for full-time leadership roles",
       ctaEmail: "Send email",
       ctaExp: "View experience",
       ctaCv: "Download CV",
     },
     stats: [
-      ["15+", "years in tech"],
+      ["12+", "years in tech"],
       ["2", "OTA platforms"],
       ["6+", "years in leadership"],
       ["1M", "users across 3 platforms"],
@@ -223,7 +223,7 @@ export const content = {
       eyebrow: "Executive summary",
       h2: "From engineer to executive leadership",
       body:
-        "Technology executive with 15+ years of experience, progressing from software engineer to CEO. Currently leading a 30-person technology organization with full P&L, product strategy, and people responsibility. Deep domain expertise in online travel platforms (OTA) and healthcare IT, including 3 years building hospital information systems and national e-health projects. Hands-on record in AI, cloud infrastructure (AWS), and cybersecurity at enterprise scale. Currently completing an MBA.",
+        "Technology executive with 12+ years of experience, progressing from software engineer to CEO. Led a 30-person technology organization for 2 years with full P&L, product strategy, and people responsibility. Deep domain expertise in online travel platforms (OTA) and healthcare IT, including hospital information systems and national e-health projects. Hands-on record in AI, cloud infrastructure (AWS), and cybersecurity at enterprise scale. Currently completing an MBA and available for a new full-time leadership role.",
       signals: ["Product strategy", "P&L and ROI", "Organization design", "AI · Cloud · Cybersecurity"],
       langs: "LANGUAGES: MONGOLIAN (NATIVE) · ENGLISH (ADVANCED, WORKING PROFESSIONAL PROFICIENCY)",
     },
@@ -233,9 +233,9 @@ export const content = {
       items: [
         ["Platform builder", "Architected and launched an online travel agency platform with Amadeus GDS and Trip.com integration — one of the few systems of this class in Mongolia."],
         ["Organization builder", "Built organizational structure, career ladders, pension/savings program, and performance systems for a 30-person engineering organization, materially improving retention."],
-        ["Deal leadership", "Initiated and led B2B technology contracts ranging from ₮200M to ₮1B, owning pricing strategy, legal terms, and risk assessment end-to-end."],
+        ["Deal leadership", "Initiated and led large-value B2B technology contracts, owning pricing strategy, legal terms, and risk assessment end-to-end."],
         ["Cybersecurity", "Led response to a major AWS cloud security incident: achieved 100% financial recovery, instituted blameless post-mortem culture, and drove OIDC federation architecture to eliminate long-lived credentials."],
-        ["AI & digital products", "Directed development of Mongolian-script OCR, AI-based diagnostics, and K-12 educational tablet products at portfolio level."],
+        ["AI & digital products", "Directed development of Mongolian-script OCR, AI-powered plagiarism detection, and K-12 educational tablet products at portfolio level."],
       ],
     },
     caseStudies: {
@@ -291,15 +291,15 @@ export const content = {
       eyebrow: "Professional experience",
       h2: "Career route",
       stops: [
-        { now: true, when: "May 2024 — Jul 2026", title: "Chief Executive Officer", org: "SteppeLink — Technology & EdTech", points: [
-          "Full ownership of strategy, finance, and operations for a 30-person organization; manage annual budget and technology investment ROI;",
-          "Lead the ESAN product ecosystem: K-12 educational tablet, Mongolian-script OCR/AI, plagiarism detection platform;",
+        { now: false, when: "May 2024 — Jul 2026", title: "Chief Executive Officer", org: "SteppeLink — Technology & EdTech", points: [
+          "Full ownership of strategy, finance, and operations for a 30-person organization; managed annual budget and technology investment ROI;",
+          "Led the ESAN product ecosystem: K-12 educational tablet, Mongolian-script OCR/AI, plagiarism detection platform;",
           "Established comprehensive people-development systems: career ladders, pension/savings program, capability programs;",
           "Upgraded AWS cloud infrastructure and cybersecurity policy toward international standards.",
         ] },
-        { now: true, when: "[2025] — Present", title: "Founder & CEO", org: "Flynk Tech — Skytrip Travel Platform", points: [
+        { now: true, when: "2025 — Present", title: "Founder & CEO (part-time)", org: "Flynk Tech — Skytrip Travel Platform", points: [
           "Built an OTA platform with Amadeus GDS and Trip.com integration; offering it as a white-label B2B product to Mongolian travel agencies;",
-          "Own product pricing strategy (markup/service-fee model), Ebarimt POS 3.0 tax integration, and the full sales process.",
+          "Own product pricing strategy (markup/service-fee model), Ebarimt POS 3.0 tax integration, and the sales process; actively searching for a full-time leadership role alongside this.",
         ] },
         { now: false, when: "Apr 2024 — Jan 2025", title: "Chief Technology Officer / Advisor", org: "SteppeLink", points: [
           "Owned technology strategy, architecture decisions, and engineering leadership; transitioned into the CEO role.",
@@ -345,7 +345,7 @@ export const content = {
       ctaEmail: "Send email",
       ctaCv: "Download CV",
       location: "Ulaanbaatar, Mongolia",
-      fine: "CH. UUGANBAYAR · CHIEF EXECUTIVE OFFICER · TECHNOLOGY EXECUTIVE",
+      fine: "CH. UUGANBAYAR · TECHNOLOGY EXECUTIVE · FORMER STEPPELINK CEO",
     },
   },
 };

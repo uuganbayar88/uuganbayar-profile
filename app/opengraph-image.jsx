@@ -49,7 +49,7 @@ export default function OpenGraphImage() {
               fontSize: 29,
             }}
           >
-            Chief Executive Officer · Technology Executive
+            Technology Executive · Former SteppeLink CEO
           </div>
         </div>
         <div
@@ -62,7 +62,7 @@ export default function OpenGraphImage() {
             color: "#AFC3DB",
           }}
         >
-          <span>15+ years from engineer to executive leadership</span>
+          <span>12+ years from engineer to executive leadership</span>
           <span style={{ color: "#7FB2E5" }}>CH. UUGANBAYAR</span>
         </div>
       </div>

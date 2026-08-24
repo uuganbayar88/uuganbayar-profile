@@ -1,5 +1,6 @@
 import ScrollReveal from "@/components/ScrollReveal";
 import SetLang from "@/components/SetLang";
+import MobileNav from "@/components/MobileNav";
 import { content, EMAIL, EMAIL_HREF, PHONE_DISPLAY, PHONE_HREF } from "@/app/content";
 
 function mergeManagedContent(base, managedProfile, lang) {
@@ -47,7 +48,7 @@ export default function Profile({ lang, managedProfile }) {
             <b>{c.brand[1]}</b>
           </a>
           <div className="nav-right">
-            <ul>
+            <ul className="nav-links">
               {c.nav.map(([href, label]) => (
                 <li key={href}>
                   <a href={href}>{label}</a>
@@ -57,6 +58,7 @@ export default function Profile({ lang, managedProfile }) {
             <a className="lang-toggle" href={c.toggle.href}>
               {c.toggle.label}
             </a>
+            <MobileNav links={c.nav} />
           </div>
         </div>
       </nav>
@@ -79,7 +81,7 @@ export default function Profile({ lang, managedProfile }) {
               <a className="btn btn-ghost" href={c.cv} download>
                 {c.hero.ctaCv}
               </a>
-              <a className="btn btn-text" href="#case-studies">
+              <a className="btn btn-text" href="#experience">
                 {c.hero.ctaExp} <span aria-hidden="true">↘</span>
               </a>
             </div>
