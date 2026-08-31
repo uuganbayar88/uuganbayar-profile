@@ -34,10 +34,9 @@ export const content = {
       briefTitle: "Систем бүтээнэ. Баг өсгөнө. Бизнесийн үр дүн гаргана.",
       briefItems: [
         ["Өмнөх үүрэг", "CEO · SteppeLink"],
-        ["Гол салбар", "Технологийн удирдлага · AI · EdTech · OTA"],
+        ["Гол салбар", "Технологийн удирдлага · AI · Төсөлийн удирдлага · OTA"],
         ["Үндсэн чиглэл", "Strategy · Product · Technology"],
       ],
-      availability: "Улаанбаатар · Бүтэн цагийн удирдах үүрэгт ажиллахад бэлэн",
       ctaEmail: "Имэйл илгээх",
       ctaExp: "Туршлагатай танилцах",
       ctaCv: "CV татах",
@@ -205,10 +204,9 @@ export const content = {
       briefTitle: "Build systems. Grow teams. Deliver business outcomes.",
       briefItems: [
         ["Previous role", "CEO · SteppeLink"],
-        ["Core sectors", "Technology leadership · AI · EdTech · OTA"],
+        ["Core sectors", "Technology leadership · AI · Project management · OTA"],
         ["Primary focus", "Strategy · Product · Technology"],
       ],
-      availability: "Ulaanbaatar · Available for full-time leadership roles",
       ctaEmail: "Send email",
       ctaExp: "View experience",
       ctaCv: "Download CV",

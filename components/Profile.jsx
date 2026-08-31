@@ -88,10 +88,6 @@ export default function Profile({ lang, managedProfile }) {
           </div>
           <aside className="hero-brief" aria-label={c.hero.briefLabel}>
             <div className="brief-monogram" aria-hidden="true">U</div>
-            <div className="brief-label">
-              <span className="status-dot" aria-hidden="true" />
-              {c.hero.briefLabel}
-            </div>
             <h2>{c.hero.briefTitle}</h2>
             <dl>
               {c.hero.briefItems.map(([label, value]) => (
@@ -101,7 +97,6 @@ export default function Profile({ lang, managedProfile }) {
                 </div>
               ))}
             </dl>
-            <div className="brief-availability">{c.hero.availability}</div>
           </aside>
           <div className="hero-route" aria-hidden="true">
             <span />

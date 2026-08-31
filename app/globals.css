@@ -73,14 +73,12 @@ header::before{content:"";position:absolute;width:430px;height:430px;border:1px 
 .btn:hover{transform:translateY(-2px)}
 .hero-brief{position:relative;overflow:hidden;border:1px solid rgba(197,209,255,.2);background:linear-gradient(155deg,rgba(255,255,255,.075),rgba(255,255,255,.025));padding:30px 28px 26px;backdrop-filter:blur(12px);box-shadow:0 28px 80px rgba(1,7,20,.24)}
 .brief-monogram{position:absolute;right:-10px;top:-55px;font-family:var(--display);font-size:12rem;line-height:1;color:rgba(141,168,250,.07);pointer-events:none}
-.brief-label{display:flex;align-items:center;gap:10px;position:relative;font-family:var(--mono);font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;color:var(--sky)}
-.status-dot{width:7px;height:7px;border-radius:50%;background:var(--sand);box-shadow:0 0 0 5px rgba(215,185,129,.11)}
-.hero-brief h2{position:relative;font-family:var(--display);font-size:1.55rem;line-height:1.25;font-weight:600;margin:26px 0 30px;max-width:290px}
+.hero-brief h2{position:relative;font-family:var(--display);font-size:1.55rem;line-height:1.25;font-weight:600;margin:0 0 22px;max-width:290px}
 .hero-brief dl{position:relative}
 .hero-brief dl>div{padding:13px 0;border-top:1px solid rgba(197,209,255,.14)}
+.hero-brief dl>div:last-child{border-bottom:1px solid rgba(197,209,255,.14)}
 .hero-brief dt{font-family:var(--mono);font-size:.61rem;letter-spacing:.1em;text-transform:uppercase;color:#8190A8}
 .hero-brief dd{margin-top:3px;font-size:.86rem;color:#E2E8F3}
-.brief-availability{position:relative;margin-top:20px;padding-top:18px;border-top:1px solid rgba(197,209,255,.14);font-size:.72rem;color:var(--sand)}
 .hero-route{position:absolute;left:36%;right:27%;bottom:44px;height:1px;background:linear-gradient(90deg,transparent,rgba(141,168,250,.35),transparent);transform:rotate(-9deg);transform-origin:center}
 .hero-route span{position:absolute;top:-4px;width:9px;height:9px;border-radius:50%;background:var(--ink);border:2px solid var(--sky)}
 .hero-route span:nth-child(1){left:12%}.hero-route span:nth-child(2){left:52%}.hero-route span:nth-child(3){right:3%;background:var(--sand);border-color:var(--sand)}
