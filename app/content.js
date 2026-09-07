@@ -137,8 +137,8 @@ export const content = {
           "40 хүртэлх хүнтэй хөндлөн чиг үүргийн багуудыг Agile/Scrum арга зүйгээр удирдсан;",
           "Технологийн архитектур, шийдэл болон ирээдүйн чиг хандлага, төслийн менежментийг хариуцаж ажилласан.",
         ] },
-        { now: false, when: "2018.06 — 2021.04", title: "Программ хөгжүүлэгч", org: "Мобиком Корпораци", points: [
-          "Монголын хамгийн том харилцаа холбооны компанид enterprise түвшний системүүд дээр ажилласан.",
+        { now: false, when: "2018.06 — 2021.04", title: "Программ хөгжүүлэгч → Менежер", org: "Мобиком Корпораци", points: [
+          "Монголын хамгийн том харилцаа холбооны компанид хөгжүүлэгчээс багийн менежер болтлоо өссөн; enterprise түвшний системүүд дээр ажилласан.",
         ] },
         { now: false, when: "2017.06 — 2018.06", title: "Ахлах программ хангамжийн инженер", org: "Woovoo LLC", points: [
           "Бүтээгдэхүүний хөгжүүлэлт, системийн архитектур.",
@@ -306,8 +306,8 @@ export const content = {
           "Led product strategy and business development for an online travel platform, including international partnerships;",
           "Managed cross-functional teams of up to 40 people using Agile/Scrum.",
         ] },
-        { now: false, when: "Jun 2018 — Apr 2021", title: "Software Developer", org: "Mobicom Corporation", points: [
-          "Delivered enterprise-scale systems at Mongolia's largest telecom.",
+        { now: false, when: "Jun 2018 — Apr 2021", title: "Software Developer → Manager", org: "Mobicom Corporation", points: [
+          "Progressed from developer to team manager at Mongolia's largest telecom; delivered enterprise-scale systems.",
         ] },
         { now: false, when: "Jun 2017 — Jun 2018", title: "Senior Software Engineer", org: "Woovoo LLC", points: [
           "Product development and system architecture.",
