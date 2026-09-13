@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ScrollReveal from "@/components/ScrollReveal";
 import SetLang from "@/components/SetLang";
 import MobileNav from "@/components/MobileNav";
@@ -86,23 +87,31 @@ export default function Profile({ lang, managedProfile }) {
               </a>
             </div>
           </div>
-          <aside className="hero-brief" aria-label={c.hero.briefLabel}>
-            <div className="brief-monogram" aria-hidden="true">U</div>
-            <h2>{c.hero.briefTitle}</h2>
-            <dl>
-              {c.hero.briefItems.map(([label, value]) => (
-                <div key={label}>
-                  <dt>{label}</dt>
-                  <dd>{value}</dd>
-                </div>
-              ))}
-            </dl>
+          <aside className="hero-visual" aria-label={c.hero.briefLabel}>
+            <div className="portrait">
+              <div className="portrait-panel" aria-hidden="true" />
+              <div className="portrait-clip">
+                <Image
+                  className="portrait-img"
+                  src="/portrait.png"
+                  alt={`${c.hero.name[0]} ${c.hero.name[1]}`}
+                  width={960}
+                  height={960}
+                  priority
+                  sizes="(max-width: 900px) 92vw, 420px"
+                />
+              </div>
+              <dl className="portrait-facts">
+                {c.hero.briefItems.map(([label, value]) => (
+                  <div key={label}>
+                    <dt>{label}</dt>
+                    <dd>{value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+            <p className="portrait-quote">{c.hero.briefTitle}</p>
           </aside>
-          <div className="hero-route" aria-hidden="true">
-            <span />
-            <span />
-            <span />
-          </div>
         </div>
         <div className="stats">
           <div className="wrap">
