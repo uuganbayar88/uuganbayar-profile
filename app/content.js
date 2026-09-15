@@ -46,7 +46,6 @@ export const content = {
       ["#contact", "Холбоо барих"],
     ],
     hero: {
-      status: "Удирдах албан тушаалд нээлттэй",
       name: ["Чулуунбаатар", "Ууганбаяр"],
       role: "Технологи, бизнесийн удирдагч",
       sub: "SteppeLink-ийн өмнөх CEO · Flynk Tech-ийн үүсгэн байгуулагч",
@@ -56,10 +55,10 @@ export const content = {
       portraitAlt: "Чулуунбаатар Ууганбаярын хөрөг зураг",
     },
     stats: [
-      ["12+", "жил технологийн салбарт"],
-      ["30", "хүнтэй байгууллага удирдсан"],
+      ["12+", "жилийн туршлага"],
       ["2", "OTA платформ"],
-      ["40 хүртэл", "хүнтэй хөндлөн чиг үүргийн баг"],
+      ["5+", "жил удирдлагад"],
+      ["17x", "өсөлт"],
     ],
     about: {
       eyebrow: "Танилцуулга",
@@ -161,7 +160,6 @@ export const content = {
       ["#contact", "Contact"],
     ],
     hero: {
-      status: "Open to leadership opportunities",
       name: ["Uuganbayar", "Chuluunbaatar"],
       role: "Technology & Business Executive",
       sub: "Former CEO, SteppeLink · Founder, Flynk Tech",
@@ -171,10 +169,10 @@ export const content = {
       portraitAlt: "Portrait of Uuganbayar Chuluunbaatar",
     },
     stats: [
-      ["12+", "years in technology"],
-      ["30", "people in organization led"],
+      ["12+", "years of experience"],
       ["2", "OTA platforms"],
-      ["Up to 40", "cross-functional team members"],
+      ["5+", "years in management"],
+      ["17x", "growth"],
     ],
     about: {
       eyebrow: "About",

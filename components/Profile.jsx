@@ -207,10 +207,6 @@ export default function Profile({ lang, managedProfile }) {
       <header id="top">
         <div className="wrap hero">
           <div className="hero-copy">
-            <div className="status">
-              <span className="status-dot" aria-hidden="true" />
-              {c.hero.status}
-            </div>
             <h1>
               {c.hero.name[0]}
               <br />

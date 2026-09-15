@@ -22,7 +22,7 @@ export default function OpenGraphImage() {
       >
         <div style={{ display: "flex", alignItems: "center", gap: 14, fontSize: 24, color: "#6A6A6A" }}>
           <div style={{ width: 14, height: 14, borderRadius: 999, background: "#E9552B" }} />
-          Open to leadership opportunities
+          Ulaanbaatar · Technology · Leadership
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ display: "flex", fontSize: 88, fontWeight: 800, lineHeight: 1, letterSpacing: -4 }}>Uuganbayar</div>
