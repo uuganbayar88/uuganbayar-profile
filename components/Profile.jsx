@@ -134,12 +134,8 @@ function Icon({ name, size = 24, className = "" }) {
   );
 }
 
-// Company mark: real logo when provided, otherwise a text wordmark.
-function OrgMark({ row }) {
-  const logo = LOGOS[row.key];
-  if (logo) {
-    return <img className="org-logo" src={logo} alt={row.org} loading="lazy" />;
-  }
+// Text wordmark used when no logo file is configured for a company.
+function OrgWord({ row }) {
   if (row.key === "tapatrip") {
     return (
       <span className="org-word org-tapatrip">
@@ -151,6 +147,38 @@ function OrgMark({ row }) {
     return <span className="org-word org-steppelink">SteppeLink</span>;
   }
   return <span className="org-word">{row.org}</span>;
+}
+
+// Company cell in the experience table: logo (optionally with the company
+// name beside it) or a text wordmark, plus the optional sub-label.
+function OrgCell({ row }) {
+  const logo = LOGOS[row.key];
+  const sub = row.orgSub ? <div className="xp-org-sub">{row.orgSub}</div> : null;
+  if (logo?.showName) {
+    return (
+      <div className="org-mark">
+        <img className="org-logo" src={logo.src} alt="" style={{ height: logo.h }} loading="lazy" />
+        <div>
+          <div className="org-name">{row.org}</div>
+          {sub}
+        </div>
+      </div>
+    );
+  }
+  if (logo) {
+    return (
+      <>
+        <img className="org-logo" src={logo.src} alt={row.org} style={{ height: logo.h }} loading="lazy" />
+        {sub}
+      </>
+    );
+  }
+  return (
+    <>
+      <OrgWord row={row} />
+      {sub}
+    </>
+  );
 }
 
 // Work card media: real image when provided, otherwise abstract art.
@@ -314,8 +342,7 @@ export default function Profile({ lang, managedProfile }) {
             {c.experience.rows.map((row) => (
               <div className="xp-row reveal" key={row.key}>
                 <div className="xp-org">
-                  <OrgMark row={row} />
-                  {row.orgSub && <div className="xp-org-sub">{row.orgSub}</div>}
+                  <OrgCell row={row} />
                 </div>
                 <div className="xp-role">
                   <div>{row.role}</div>

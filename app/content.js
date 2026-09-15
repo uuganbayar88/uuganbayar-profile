@@ -9,21 +9,22 @@ export const PHONE_HREF = "tel:+97699054359";
 export const LINKEDIN_URL = ""; // e.g. "https://www.linkedin.com/in/…" — hidden while empty
 export const SITE_YEAR = 2026;
 
-// Assets shared by both languages. Set a path under /public to replace the
-// fallback rendering (text wordmark or abstract card art).
+// Assets shared by both languages. Logos: { src, h (rendered px height),
+// showName } or null to fall back to a text wordmark. Work images: a path
+// under /public or null to fall back to abstract card art.
 export const LOGOS = {
-  flynk: null,
-  steppelink: null,
+  flynk: { src: "/logos/flynk.png", h: 40, showName: true },
+  steppelink: { src: "/logos/steppelink.png", h: 18, showName: false },
   tapatrip: null,
-  mobicom: null,
+  mobicom: { src: "/logos/mobicom.png", h: 30, showName: false },
   woovoo: null,
   ehealth: null,
 };
 
 export const WORK_IMAGES = {
-  skytrip: null,
-  esan: null,
-  cloud: null,
+  skytrip: "/work/skytrip.jpg",
+  esan: "/work/esan.jpg",
+  tapatrip: "/work/tapatrip.jpg",
 };
 
 export const content = {
@@ -89,17 +90,17 @@ export const content = {
           subtitle: "AI ба боловсрол",
           text: "Монгол бичгийн OCR, хуулбар илрүүлэлт, боловсролын таблет зэрэг портфелийг удирдсан.",
           tags: ["AI / OCR", "EdTech"],
-          href: null,
+          href: "https://esan.mn",
           artLabel: "ESAN",
         },
         {
-          key: "cloud",
-          title: "Үүлэн аюулгүй байдал",
-          subtitle: "AWS инцидентийн хариу арга хэмжээ",
-          text: "Маргаантай AWS зардлыг 100% нөхөн төлүүлж, OIDC federation-оор хандалтыг бэхжүүлсэн.",
-          tags: ["AWS", "OIDC"],
-          href: null,
-          artLabel: "CLOUD",
+          key: "tapatrip",
+          title: "Tapatrip",
+          subtitle: "Аялал жуулчлалын OTA",
+          text: "OTA-ийн бүтээгдэхүүний стратеги, олон улсын түншлэл, 40 хүртэлх хүнтэй хөндлөн чиг үүргийн багуудыг удирдсан.",
+          tags: ["Бүтээгдэхүүний стратеги", "Түншлэл"],
+          href: "https://tapatrip.com",
+          artLabel: "TAPA",
         },
       ],
     },
@@ -203,17 +204,17 @@ export const content = {
           subtitle: "AI & education",
           text: "Led a portfolio spanning Mongolian-script OCR, plagiarism detection and educational tablets.",
           tags: ["AI / OCR", "EdTech"],
-          href: null,
+          href: "https://esan.mn",
           artLabel: "ESAN",
         },
         {
-          key: "cloud",
-          title: "Cloud security",
-          subtitle: "AWS incident response",
-          text: "Recovered 100% of disputed AWS charges and strengthened access with OIDC federation.",
-          tags: ["AWS", "OIDC"],
-          href: null,
-          artLabel: "CLOUD",
+          key: "tapatrip",
+          title: "Tapatrip",
+          subtitle: "Online travel agency",
+          text: "Led OTA product strategy, international partnerships and cross-functional teams of up to 40.",
+          tags: ["Product strategy", "Partnerships"],
+          href: "https://tapatrip.com",
+          artLabel: "TAPA",
         },
       ],
     },
