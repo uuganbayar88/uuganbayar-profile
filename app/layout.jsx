@@ -17,7 +17,7 @@ const body = Inter({
 
 export const metadata = {
   metadataBase: new URL("https://uuganbayar-profile.vercel.app"),
-  title: "Чулуунбаатар Ууганбаяр — Технологи, бизнесийн удирдагч",
+  title: "Чулуунбаатар Ууганбаяр — Инженер, менежер, лидер",
   description:
     "SteppeLink-ийн өмнөх CEO, Flynk Tech-ийн үүсгэн байгуулагч. OTA платформ, эрүүл мэндийн IT, AI, cloud чиглэлээр 12+ жилийн туршлага.",
   authors: [{ name: "Uuganbayar Chuluunbaatar" }],

@@ -36,7 +36,7 @@ export const content = {
       ["/en", "EN", false],
     ],
     meta: {
-      title: "Чулуунбаатар Ууганбаяр — Технологи, бизнесийн удирдагч",
+      title: "Чулуунбаатар Ууганбаяр — Инженер, менежер, лидер",
       description:
         "SteppeLink-ийн өмнөх CEO, Flynk Tech-ийн үүсгэн байгуулагч. OTA платформ, эрүүл мэндийн IT, AI, cloud чиглэлээр 12+ жилийн туршлага. CTO, Технологийн захирал, Technology GM албан тушаалд нээлттэй.",
     },
@@ -48,7 +48,7 @@ export const content = {
     ],
     hero: {
       name: ["Чулуунбаатар", "Ууганбаяр"],
-      role: "Технологи, бизнесийн удирдагч",
+      role: "Инженер, менежер, лидер",
       bio: "Дижитал бүтээгдэхүүн бүтээж, технологийн багуудыг удирдаж, инженерчлэлийг бизнесийн зорилттой холбодог.",
       ctaTalk: "Ярилцъя",
       ctaCv: "CV татах",
@@ -136,7 +136,7 @@ export const content = {
     },
     contact: {
       eyebrow: "Холбоо барих",
-      h2: "Дараагийн зүйлийг хамтдаа бүтээе",
+      h2: "Хамтдаа бүтээе",
       ctaEmail: "Холбогдох",
       location: "Улаанбаатар, Монгол",
       linkedinLabel: "LinkedIn",
@@ -155,7 +155,7 @@ export const content = {
       ["/en", "EN", true],
     ],
     meta: {
-      title: "Uuganbayar Chuluunbaatar — Technology & Business Executive",
+      title: "Uuganbayar Chuluunbaatar — Engineer, Manager, Leader",
       description:
         "Former CEO of SteppeLink and founder of Flynk Tech. 12+ years across OTA platforms, healthcare IT, AI and cloud. Open to CTO, Technology Director and Technology General Manager roles.",
     },
@@ -167,7 +167,7 @@ export const content = {
     ],
     hero: {
       name: ["Uuganbayar", "Chuluunbaatar"],
-      role: "Technology & Business Executive",
+      role: "Engineer, Manager, Leader",
       bio: "I build digital products, lead technology teams and connect engineering with business priorities.",
       ctaTalk: "Let's talk",
       ctaCv: "Download CV",
@@ -255,7 +255,7 @@ export const content = {
     },
     contact: {
       eyebrow: "Contact",
-      h2: "Let's build what's next",
+      h2: "Let's build together",
       ctaEmail: "Get in touch",
       location: "Ulaanbaatar, Mongolia",
       linkedinLabel: "LinkedIn",
