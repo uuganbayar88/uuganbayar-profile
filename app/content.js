@@ -6,7 +6,7 @@ export const EMAIL = "uuganbayar.ch@gmail.com";
 export const EMAIL_HREF = "mailto:" + EMAIL;
 export const PHONE_DISPLAY = "+976 9905-4359";
 export const PHONE_HREF = "tel:+97699054359";
-export const LINKEDIN_URL = ""; // e.g. "https://www.linkedin.com/in/…" — hidden while empty
+export const LINKEDIN_URL = "https://www.linkedin.com/in/uuganbayar-ch-327b30b4/"; // set "" to hide the LinkedIn link
 export const SITE_YEAR = 2026;
 
 // Assets shared by both languages. Logos: { src, h (rendered px height),
