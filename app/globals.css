@@ -124,7 +124,10 @@ section:first-of-type{border-top:none}
 .edu h3{font-size:1.05rem;font-weight:700;letter-spacing:-.01em}
 .edu-org{margin-top:3px;font-size:.95rem;color:var(--ink-2)}
 .edu-when{margin-top:2px;font-size:.9rem;color:var(--muted)}
-.langs{display:flex;gap:28px;flex-wrap:wrap;margin-top:40px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:.92rem;color:var(--muted)}
+.certs{display:flex;flex-wrap:wrap;gap:8px 28px;margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font-size:.92rem;color:var(--muted)}
+.certs-label{flex-basis:100%;font-size:.74rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.certs b{font-weight:600;color:var(--ink)}
+.langs{display:flex;gap:28px;flex-wrap:wrap;margin-top:26px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:.92rem;color:var(--muted)}
 .langs b{font-weight:600;color:var(--ink)}
 
 /* contact + footer */

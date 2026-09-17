@@ -354,6 +354,14 @@ export default function Profile({ lang, managedProfile }) {
               </div>
             ))}
           </div>
+          <div className="certs">
+            <span className="certs-label">{c.education.certsLabel}</span>
+            {c.education.certs.map(([name, issuer]) => (
+              <span key={name}>
+                <b>{name}</b> · {issuer}
+              </span>
+            ))}
+          </div>
           <div className="langs">
             {c.education.languages.map(([name, level]) => (
               <span key={name}>

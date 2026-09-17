@@ -63,11 +63,11 @@ export const content = {
     about: {
       eyebrow: "Танилцуулга",
       h2: ["Технологи.", "Хүмүүс. Бизнес"],
-      body: "Программ хангамжийн инженерээс гүйцэтгэх удирдлага хүртэл: бүтээгдэхүүн, технологи, бизнесийн шийдвэрийг нэгтгэдэг.",
+      body: "Мэдээллийн технологийн салбарт 12 гаруй жил ажиллаж, программ хангамжийн инженерээс гүйцэтгэх удирдлагын түвшинд хүрсэн. СтеппеЛинкийн гүйцэтгэх захирлаар 25–30 хүний бүрэлдэхүүнтэй байгууллагын стратеги, төсөв, ашиг алдагдал, бүтээгдэхүүн, хүний нөөцийг удирдсан. Skytrip.mn, Tapatrip.mn аяллын платформуудыг хамтран бүтээж, технологийн боломжийг бизнесийн хэрэгцээтэй холбож, бүтээгдэхүүнийг зах зээлд гаргасан.",
       pillars: [
-        { icon: "strategy", title: "Стратеги ба P&L", text: "Санааг тогтвортой өсөлт болгох." },
-        { icon: "product", title: "Бүтээгдэхүүн ба түншлэл", text: "Хамтын ажиллагаагаар бүтээгдэхүүн бүтээх." },
-        { icon: "teams", title: "Баг ба архитектур", text: "Өндөр гүйцэтгэлтэй инженерийн багийг өсгөх." },
+        { icon: "strategy", title: "Стратеги ба P&L", text: "Байгууллагын стратеги, төсөв, ашиг алдагдал, өдөр тутмын удирдлага." },
+        { icon: "product", title: "Бүтээгдэхүүн ба түншлэл", text: "Бизнес төлөвлөгөө, бүтээгдэхүүн хөгжүүлэлт, B2B түншлэл, гэрээ хэлэлцээр." },
+        { icon: "teams", title: "Баг ба архитектур", text: "Багийн удирдлага, хүний нөөц, төслийн менежмент, технологийн стратеги." },
       ],
     },
     work: {
@@ -107,10 +107,10 @@ export const content = {
       eyebrow: "Туршлага",
       h2: "Карьерын замнал",
       rows: [
-        { key: "flynk", org: "Flynk Tech", orgSub: "Skytrip", role: "Үүсгэн байгуулагч, Гүйцэтгэх захирал", roleNote: "Хагас цагийн · зөвлөх", when: "2025 – одоо", outcome: "B2B аяллын платформыг зах зээлд гаргаж, бүтээгдэхүүний чиглэл, үнэ, түншлэлийг удирдаж байна." },
-        { key: "steppelink", org: "SteppeLink", orgSub: null, role: "Гүйцэтгэх захирал", roleNote: "Технологи хариуцсан захирал / Зөвлөх · 2024.04 – 2025.01 (давхар үүрэг)", when: "2024.05 – 2026.07", outcome: "30 хүнтэй байгууллагын стратеги, P&L, үйл ажиллагааг удирдсан." },
-        { key: "tapatrip", org: "tapatrip", orgSub: null, role: "Бүтээгдэхүүн, бизнес хөгжүүлэлт хариуцсан захирал", roleNote: null, when: "2021.04 – 2023.10", outcome: "OTA стратеги, түншлэл, 40 хүртэлх хүнтэй хөндлөн чиг үүргийн багуудыг удирдсан." },
-        { key: "mobicom", org: "Мобиком Корпораци", orgSub: null, role: "Программ хөгжүүлэгч → Багийн менежер", roleNote: null, when: "2018.06 – 2021.04", outcome: "Enterprise түвшний харилцаа холбооны системүүд хөгжүүлж, багийн удирдлагад дэвшсэн." },
+        { key: "flynk", org: "Flynk Tech", orgSub: "Skytrip", role: "Үүсгэн байгуулагч, зөвлөх", roleNote: "Хагас цагийн", when: "2024 – одоо", outcome: "Skytrip аяллын платформын бүтээгдэхүүн, технологи, бизнесийн чиглэлийг тодорхойлж, системийн архитектур, түншлэлийн хэлэлцээр, ашигт ажиллагааг хариуцаж байна." },
+        { key: "steppelink", org: "SteppeLink", orgSub: null, role: "Гүйцэтгэх захирал", roleNote: "Технологи хариуцсан захирал / Зөвлөх, СтеппеЛинк холдинг · 2024.04 – 2025.01 (давхар үүрэг)", when: "2024.05 – 2026.07", outcome: "25–30 хүнтэй байгууллагын стратеги, төсөв, ашиг алдагдал, бүтээгдэхүүн, хүний нөөцийг удирдаж; AI, AWS үүлэн технологи, кибер аюулгүй байдлын ажлуудыг хэрэгжүүлсэн." },
+        { key: "tapatrip", org: "tapatrip", orgSub: null, role: "Бүтээгдэхүүн, бизнес хөгжүүлэлт хариуцсан захирал", roleNote: null, when: "2021.04 – 2023.10", outcome: "Бүтээгдэхүүний чиглэл, бизнес төлөвлөгөө, олон улсын түншлэл, гэрээ хэлэлцээрийг хариуцаж, 40 хүртэлх хүнтэй багуудтай ажилласан." },
+        { key: "mobicom", org: "Мобиком Корпораци", orgSub: null, role: "Программ хөгжүүлэгч → Менежер", roleNote: null, when: "2018.06 – 2021.04", outcome: "Хөгжүүлэгчээс менежерийн үүрэгт дэвшиж, багийн үйл ажиллагааг корпорацийн төлөвлөгөөтэй уялдуулан удирдсан." },
         { key: "woovoo", org: "Woovoo LLC", orgSub: null, role: "Ахлах программ хангамжийн инженер", roleNote: null, when: "2017.06 – 2018.06", outcome: "Бүтээгдэхүүний хөгжүүлэлт, системийн архитектур." },
         { key: "ehealth", org: "Цахим эрүүл мэнд төсөл / ШУГТЭ", orgSub: null, role: "Эрүүл мэндийн IT ба инженерийн удирдлага", roleNote: null, when: "2014.02 – 2017.06", outcome: "Ахлах инженер (2014 – 2015) · МТ албаны дарга (2015 – 2016) · Цахим эрүүл мэндийн ахлах инженер (2016 – 2017)." },
       ],
@@ -122,9 +122,16 @@ export const content = {
         { title: "Бизнесийн удирдлагын магистр (MBA)", org: "Санхүү Эдийн Засгийн Их Сургууль", when: "2023 – одоо · Суралцаж байгаа" },
         { title: "Мэдээллийн технологийн бакалавр", org: "Шинжлэх Ухаан Технологийн Их Сургууль", when: "2006 – 2011" },
       ],
+      certsLabel: "Сургалт, гэрчилгээ",
+      certs: [
+        ["Agile Project Management", "Google"],
+        ["Software Architecture", "Sparx Systems"],
+        ["Мэдээллийн аюулгүй байдал: Next-Gen Firewalls", "МУИС"],
+        ["CCNA", "Cisco"],
+      ],
       languages: [
-        ["Монгол", "Эх хэл"],
-        ["Англи", "Ахисан түвшин, бизнесийн орчинд"],
+        ["Монгол", "Төрөлх"],
+        ["Англи", "Ахисан түвшин"],
       ],
     },
     contact: {
@@ -175,11 +182,11 @@ export const content = {
     about: {
       eyebrow: "About",
       h2: ["Technology.", "People. Business"],
-      body: "From software engineering to executive leadership, I bring product, technology and commercial decisions together.",
+      body: "12+ years in technology, from software engineer to executive leadership. As CEO of SteppeLink I led strategy, budget, P&L, product and people for a 25–30-person organization. I co-built the Skytrip.mn and Tapatrip.mn travel platforms, connecting technology capability with business needs and taking products to market.",
       pillars: [
-        { icon: "strategy", title: "Strategy & P&L", text: "Turn ideas into sustainable growth." },
-        { icon: "product", title: "Product & partnerships", text: "Build products through collaboration." },
-        { icon: "teams", title: "Teams & architecture", text: "Scale high-performing engineering teams." },
+        { icon: "strategy", title: "Strategy & P&L", text: "Organizational strategy, budgeting, P&L and day-to-day management." },
+        { icon: "product", title: "Product & partnerships", text: "Business planning, product development, B2B sales, partnerships and negotiation." },
+        { icon: "teams", title: "Teams & architecture", text: "Team leadership, people, project management and technology strategy." },
       ],
     },
     work: {
@@ -219,10 +226,10 @@ export const content = {
       eyebrow: "Experience",
       h2: "A career of building",
       rows: [
-        { key: "flynk", org: "Flynk Tech", orgSub: "Skytrip", role: "Founder & CEO", roleNote: "Part-time / advisory", when: "2025 – Present", outcome: "Launched a B2B travel platform; lead product direction, pricing and partnerships." },
-        { key: "steppelink", org: "SteppeLink", orgSub: null, role: "Chief Executive Officer", roleNote: "CTO / Advisor · Apr 2024 – Jan 2025 (overlapping role)", when: "May 2024 – Jul 2026", outcome: "Led a 30-person organization across strategy, P&L and operations." },
-        { key: "tapatrip", org: "tapatrip", orgSub: null, role: "Director of Product & Business Development", roleNote: null, when: "Apr 2021 – Oct 2023", outcome: "Led OTA strategy, partnerships and cross-functional teams of up to 40." },
-        { key: "mobicom", org: "Mobicom Corporation", orgSub: null, role: "Software Developer → Team Manager", roleNote: null, when: "Jun 2018 – Apr 2021", outcome: "Delivered enterprise telecom systems and progressed into team leadership." },
+        { key: "flynk", org: "Flynk Tech", orgSub: "Skytrip", role: "Founder & Advisor", roleNote: "Part-time", when: "2024 – Present", outcome: "Set product, technology and business direction for the Skytrip travel platform; own system architecture, partnership negotiations and profitability." },
+        { key: "steppelink", org: "SteppeLink", orgSub: null, role: "Chief Executive Officer", roleNote: "CTO / Advisor, SteppeLink Holding · Apr 2024 – Jan 2025 (overlapping role)", when: "May 2024 – Jul 2026", outcome: "Led strategy, budget, P&L, product and people for a 25–30-person organization; delivered AI, AWS cloud and cybersecurity programs." },
+        { key: "tapatrip", org: "tapatrip", orgSub: null, role: "Director of Product & Business Development", roleNote: null, when: "Apr 2021 – Oct 2023", outcome: "Owned product direction, business planning, international partnerships and contract negotiations; worked with teams of up to 40." },
+        { key: "mobicom", org: "Mobicom Corporation", orgSub: null, role: "Software Developer → Manager", roleNote: null, when: "Jun 2018 – Apr 2021", outcome: "Progressed from developer to manager, leading team operations aligned with corporate short- and mid-term plans." },
         { key: "woovoo", org: "Woovoo LLC", orgSub: null, role: "Senior Software Engineer", roleNote: null, when: "Jun 2017 – Jun 2018", outcome: "Delivered product development and system architecture." },
         { key: "ehealth", org: "National E-Health Project / State Central Hospital", orgSub: null, role: "Healthcare IT & Engineering Leadership", roleNote: null, when: "Feb 2014 – Jun 2017", outcome: "Senior Engineer (2014 – 2015) · Head of IT (2015 – 2016) · E-Health Senior Software Engineer (2016 – 2017)." },
       ],
@@ -234,9 +241,16 @@ export const content = {
         { title: "MBA, Business Administration", org: "University of Finance and Economics", when: "2023 – Present · In progress" },
         { title: "BSc, Information Technology", org: "Mongolian University of Science and Technology", when: "2006 – 2011" },
       ],
+      certsLabel: "Training & certificates",
+      certs: [
+        ["Agile Project Management", "Google"],
+        ["Software Architecture", "Sparx Systems"],
+        ["Information Security: Next-Gen Firewalls", "National University of Mongolia"],
+        ["CCNA", "Cisco"],
+      ],
       languages: [
         ["Mongolian", "Native"],
-        ["English", "Advanced professional proficiency"],
+        ["English", "Advanced"],
       ],
     },
     contact: {
