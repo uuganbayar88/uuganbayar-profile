@@ -1,32 +1,25 @@
-import { Playfair_Display, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
+import { Inter, Inter_Tight } from "next/font/google";
 import "./globals.css";
 
-const display = Playfair_Display({
+const display = Inter_Tight({
   subsets: ["latin", "cyrillic"],
-  weight: ["500", "600", "700"],
+  weight: ["600", "700", "800"],
   variable: "--font-display",
   display: "swap",
 });
 
-const body = IBM_Plex_Sans({
+const body = Inter({
   subsets: ["latin", "cyrillic"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-body",
   display: "swap",
 });
 
-const mono = IBM_Plex_Mono({
-  subsets: ["latin", "cyrillic"],
-  weight: ["400", "500"],
-  variable: "--font-mono",
-  display: "swap",
-});
-
 export const metadata = {
   metadataBase: new URL("https://uuganbayar-profile.vercel.app"),
-  title: "Чулуунбаатар Ууганбаяр — Гүйцэтгэх захирал · Технологийн удирдагч",
+  title: "Чулуунбаатар Ууганбаяр — Инженер, менежер, лидер",
   description:
-    "Технологийн салбарт 15+ жил — инженерээс гүйцэтгэх удирдлага хүртэл. OTA платформ, эрүүл мэндийн IT, AI, кибер аюулгүй байдал.",
+    "SteppeLink-ийн өмнөх CEO, Flynk Tech-ийн үүсгэн байгуулагч. OTA платформ, эрүүл мэндийн IT, AI, cloud чиглэлээр 12+ жилийн туршлага.",
   authors: [{ name: "Uuganbayar Chuluunbaatar" }],
   creator: "Uuganbayar Chuluunbaatar",
   robots: {
@@ -37,7 +30,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="mn" className={`${display.variable} ${body.variable} ${mono.variable}`}>
+    <html lang="mn" className={`${display.variable} ${body.variable}`}>
       <body>{children}</body>
     </html>
   );
