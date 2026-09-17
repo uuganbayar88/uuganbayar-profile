@@ -49,7 +49,6 @@ export const content = {
     hero: {
       name: ["Чулуунбаатар", "Ууганбаяр"],
       role: "Технологи, бизнесийн удирдагч",
-      sub: "SteppeLink-ийн өмнөх CEO · Flynk Tech-ийн үүсгэн байгуулагч",
       bio: "Дижитал бүтээгдэхүүн бүтээж, технологийн багуудыг удирдаж, инженерчлэлийг бизнесийн зорилттой холбодог.",
       ctaTalk: "Ярилцъя",
       ctaCv: "CV татах",
@@ -63,7 +62,7 @@ export const content = {
     ],
     about: {
       eyebrow: "Танилцуулга",
-      h2: ["Технологи.", "Хүмүүс. Бизнес."],
+      h2: ["Технологи.", "Хүмүүс. Бизнес"],
       body: "Программ хангамжийн инженерээс гүйцэтгэх удирдлага хүртэл: бүтээгдэхүүн, технологи, бизнесийн шийдвэрийг нэгтгэдэг.",
       pillars: [
         { icon: "strategy", title: "Стратеги ба P&L", text: "Санааг тогтвортой өсөлт болгох." },
@@ -73,7 +72,7 @@ export const content = {
     },
     work: {
       eyebrow: "Сонгосон ажлууд",
-      h2: "Сонгосон ажлууд.",
+      h2: "Сонгосон ажлууд",
       items: [
         {
           key: "skytrip",
@@ -106,7 +105,7 @@ export const content = {
     },
     experience: {
       eyebrow: "Туршлага",
-      h2: "Бүтээлийн замнал.",
+      h2: "Карьерын замнал",
       rows: [
         { key: "flynk", org: "Flynk Tech", orgSub: "Skytrip", role: "Үүсгэн байгуулагч, Гүйцэтгэх захирал", roleNote: "Хагас цагийн · зөвлөх", when: "2025 – одоо", outcome: "B2B аяллын платформыг зах зээлд гаргаж, бүтээгдэхүүний чиглэл, үнэ, түншлэлийг удирдаж байна." },
         { key: "steppelink", org: "SteppeLink", orgSub: null, role: "Гүйцэтгэх захирал", roleNote: "Технологи хариуцсан захирал / Зөвлөх · 2024.04 – 2025.01 (давхар үүрэг)", when: "2024.05 – 2026.07", outcome: "30 хүнтэй байгууллагын стратеги, P&L, үйл ажиллагааг удирдсан." },
@@ -118,7 +117,7 @@ export const content = {
     },
     education: {
       eyebrow: "Боловсрол",
-      h2: "Тасралтгүй суралцах.",
+      h2: "Тасралтгүй суралцах",
       items: [
         { title: "Бизнесийн удирдлагын магистр (MBA)", org: "Санхүү Эдийн Засгийн Их Сургууль", when: "2023 – одоо · Суралцаж байгаа" },
         { title: "Мэдээллийн технологийн бакалавр", org: "Шинжлэх Ухаан Технологийн Их Сургууль", when: "2006 – 2011" },
@@ -130,8 +129,7 @@ export const content = {
     },
     contact: {
       eyebrow: "Холбоо барих",
-      h2: "Дараагийн зүйлийг хамтдаа бүтээе.",
-      note: "CTO, Технологийн захирал, Technology GM албан тушаалд нээлттэй.",
+      h2: "Дараагийн зүйлийг хамтдаа бүтээе",
       ctaEmail: "Холбогдох",
       location: "Улаанбаатар, Монгол",
       linkedinLabel: "LinkedIn",
@@ -163,7 +161,6 @@ export const content = {
     hero: {
       name: ["Uuganbayar", "Chuluunbaatar"],
       role: "Technology & Business Executive",
-      sub: "Former CEO, SteppeLink · Founder, Flynk Tech",
       bio: "I build digital products, lead technology teams and connect engineering with business priorities.",
       ctaTalk: "Let's talk",
       ctaCv: "Download CV",
@@ -177,7 +174,7 @@ export const content = {
     ],
     about: {
       eyebrow: "About",
-      h2: ["Technology.", "People. Business."],
+      h2: ["Technology.", "People. Business"],
       body: "From software engineering to executive leadership, I bring product, technology and commercial decisions together.",
       pillars: [
         { icon: "strategy", title: "Strategy & P&L", text: "Turn ideas into sustainable growth." },
@@ -187,7 +184,7 @@ export const content = {
     },
     work: {
       eyebrow: "Selected work",
-      h2: "Selected work.",
+      h2: "Selected work",
       items: [
         {
           key: "skytrip",
@@ -220,7 +217,7 @@ export const content = {
     },
     experience: {
       eyebrow: "Experience",
-      h2: "A career of building.",
+      h2: "A career of building",
       rows: [
         { key: "flynk", org: "Flynk Tech", orgSub: "Skytrip", role: "Founder & CEO", roleNote: "Part-time / advisory", when: "2025 – Present", outcome: "Launched a B2B travel platform; lead product direction, pricing and partnerships." },
         { key: "steppelink", org: "SteppeLink", orgSub: null, role: "Chief Executive Officer", roleNote: "CTO / Advisor · Apr 2024 – Jan 2025 (overlapping role)", when: "May 2024 – Jul 2026", outcome: "Led a 30-person organization across strategy, P&L and operations." },
@@ -232,7 +229,7 @@ export const content = {
     },
     education: {
       eyebrow: "Education",
-      h2: "Always learning.",
+      h2: "Always learning",
       items: [
         { title: "MBA, Business Administration", org: "University of Finance and Economics", when: "2023 – Present · In progress" },
         { title: "BSc, Information Technology", org: "Mongolian University of Science and Technology", when: "2006 – 2011" },
@@ -244,8 +241,7 @@ export const content = {
     },
     contact: {
       eyebrow: "Contact",
-      h2: "Let's build what's next.",
-      note: "Open to CTO, Technology Director and Technology General Manager opportunities.",
+      h2: "Let's build what's next",
       ctaEmail: "Get in touch",
       location: "Ulaanbaatar, Mongolia",
       linkedinLabel: "LinkedIn",

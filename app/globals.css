@@ -49,7 +49,6 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:7
 .hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);gap:48px;align-items:center;padding-top:64px;padding-bottom:48px}
 .hero h1{font-size:clamp(3rem,7vw,5.5rem);font-weight:800;line-height:.95;letter-spacing:-.045em;margin:0 0 14px}
 .hero .role{font-family:var(--display);font-size:clamp(1.25rem,2.2vw,1.55rem);font-weight:700;letter-spacing:-.02em}
-.hero .sub{margin-top:6px;font-size:1.02rem;color:var(--muted)}
 .hero .bio{margin-top:18px;max-width:520px;font-size:1.05rem;color:var(--ink-2)}
 .hero .cta{margin-top:30px;display:flex;align-items:center;gap:26px;flex-wrap:wrap}
 .btn-dark{display:inline-flex;align-items:center;gap:12px;padding:14px 22px;background:var(--ink);color:#fff;border-radius:4px;font-weight:600;font-size:.95rem;text-decoration:none;transition:transform .18s,background .18s}
@@ -130,8 +129,6 @@ section:first-of-type{border-top:none}
 
 /* contact + footer */
 .contact{padding:84px 0 36px;border-top:1px solid var(--line)}
-.contact-head{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(250px,.45fr);gap:48px;align-items:end}
-.contact-note{font-size:1.02rem;color:var(--ink-2);padding-bottom:8px}
 .contact-row{display:flex;align-items:center;gap:36px;flex-wrap:wrap;margin-top:40px;padding-bottom:36px;border-bottom:1px solid var(--line)}
 .contact-item{display:inline-flex;align-items:center;gap:10px;font-size:.92rem;color:var(--ink-2);text-decoration:none}
 .contact-item .icon{color:var(--ink)}
@@ -148,7 +145,7 @@ section:first-of-type{border-top:none}
 @media(max-width:900px){
   .hero{grid-template-columns:1fr;gap:36px;padding-top:44px}
   .portrait-circle{justify-self:start;width:260px}
-  .about-head,.contact-head{grid-template-columns:1fr;gap:18px}
+  .about-head{grid-template-columns:1fr;gap:18px}
   .xp-row{grid-template-columns:1fr 1fr;gap:18px 28px}
   .xp-when{grid-column:1;grid-row:2}
   .xp-outcome{grid-column:2;grid-row:2}

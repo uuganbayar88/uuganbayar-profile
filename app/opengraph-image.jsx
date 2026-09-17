@@ -28,9 +28,6 @@ export default function OpenGraphImage() {
           <div style={{ display: "flex", fontSize: 88, fontWeight: 800, lineHeight: 1, letterSpacing: -4 }}>Uuganbayar</div>
           <div style={{ display: "flex", fontSize: 88, fontWeight: 800, lineHeight: 1, letterSpacing: -4 }}>Chuluunbaatar</div>
           <div style={{ display: "flex", marginTop: 26, fontSize: 34, fontWeight: 700 }}>Technology &amp; Business Executive</div>
-          <div style={{ display: "flex", marginTop: 8, fontSize: 26, color: "#6A6A6A" }}>
-            Former CEO, SteppeLink · Founder, Flynk Tech
-          </div>
         </div>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 22, color: "#6A6A6A" }}>
           <span>12+ years in technology · Ulaanbaatar, Mongolia</span>

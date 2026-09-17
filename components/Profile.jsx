@@ -46,19 +46,6 @@ function mergeManagedContent(base, managedProfile, lang) {
   };
 }
 
-// Renders a headline whose final period is the accent colour.
-function Headline({ text }) {
-  const trimmed = text.trim();
-  const hasDot = trimmed.endsWith(".");
-  const body = hasDot ? trimmed.slice(0, -1) : trimmed;
-  return (
-    <>
-      {body}
-      {hasDot && <span className="dot">.</span>}
-    </>
-  );
-}
-
 const ICONS = {
   strategy: (
     <>
@@ -241,7 +228,6 @@ export default function Profile({ lang, managedProfile }) {
               {c.hero.name[1]}
             </h1>
             <div className="role">{c.hero.role}</div>
-            <div className="sub">{c.hero.sub}</div>
             <p className="bio">{c.hero.bio}</p>
             <div className="cta">
               <a className="btn-dark" href={EMAIL_HREF}>
@@ -283,7 +269,7 @@ export default function Profile({ lang, managedProfile }) {
             <h2>
               {c.about.h2[0]}
               <br />
-              <Headline text={c.about.h2[1]} />
+              {c.about.h2[1]}
             </h2>
             <p className="about-body">{c.about.body}</p>
           </div>
@@ -304,9 +290,7 @@ export default function Profile({ lang, managedProfile }) {
       <section id="work" className="work">
         <div className="wrap">
           <div className="eyebrow">{c.work.eyebrow}</div>
-          <h2>
-            <Headline text={c.work.h2} />
-          </h2>
+          <h2>{c.work.h2}</h2>
           <div className="work-grid">
             {c.work.items.map((item) => {
               const Tag = item.href ? "a" : "div";
@@ -335,9 +319,7 @@ export default function Profile({ lang, managedProfile }) {
       <section id="experience" className="experience">
         <div className="wrap">
           <div className="eyebrow">{c.experience.eyebrow}</div>
-          <h2>
-            <Headline text={c.experience.h2} />
-          </h2>
+          <h2>{c.experience.h2}</h2>
           <div className="xp-table">
             {c.experience.rows.map((row) => (
               <div className="xp-row reveal" key={row.key}>
@@ -359,9 +341,7 @@ export default function Profile({ lang, managedProfile }) {
       <section id="education" className="education">
         <div className="wrap">
           <div className="eyebrow">{c.education.eyebrow}</div>
-          <h2>
-            <Headline text={c.education.h2} />
-          </h2>
+          <h2>{c.education.h2}</h2>
           <div className="edu-grid">
             {c.education.items.map((e) => (
               <div className="edu" key={e.title}>
@@ -387,12 +367,7 @@ export default function Profile({ lang, managedProfile }) {
       <footer id="contact" className="contact">
         <div className="wrap">
           <div className="eyebrow">{c.contact.eyebrow}</div>
-          <div className="contact-head">
-            <h2>
-              <Headline text={c.contact.h2} />
-            </h2>
-            <p className="contact-note">{c.contact.note}</p>
-          </div>
+          <h2>{c.contact.h2}</h2>
           <div className="contact-row">
             <a className="btn-dark" href={EMAIL_HREF}>
               {c.contact.ctaEmail} <Icon name="arrowUpRight" size={16} />
